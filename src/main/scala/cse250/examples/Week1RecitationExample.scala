@@ -33,7 +33,7 @@ object Week1RecitationExamples
         lastTime = now
       }
       val columns = row.split(",")
-      coordinates = coordinates :+ ( (columns(columns.length-3).toDouble, columns(columns.length-2).toDouble) )
+      coordinates = coordinates :+ ( (columns(35).toDouble, columns(36).toDouble) )
     }
     
     /* the code would now do something with coordinates */
