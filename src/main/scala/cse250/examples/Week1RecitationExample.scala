@@ -1,4 +1,17 @@
 package cse250.examples
+/**
+ * cse250.examples.Week1RecitationExamples.scala
+ *
+ * Copyright 2022 Oliver Kennedy (okennedy@buffalo.edu)
+ *           2022 Eric Mikida (epmikida@buffalo.edu)
+ *           2021 Andrew Hughes (ahughes6@buffalo.edu)
+ *
+ * This work is licensed under the Creative Commons
+ * Attribution-NonCommercial-ShareAlike 4.0 International License.
+ * To view a copy of this license, visit
+ * http://creativecommons.org/licenses/by-nc-sa/4.0/.
+ *
+ */
 
 import scala.io.Source
 
@@ -23,7 +36,6 @@ object Week1RecitationExamples
       coordinates = coordinates :+ ( (columns(columns.length-3).toDouble, columns(columns.length-2).toDouble) )
     }
     
-    /* the code would now 
-    do something with coordinates */
+    /* the code would now do something with coordinates */
   }
 }
